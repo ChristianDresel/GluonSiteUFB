@@ -14,6 +14,7 @@ GLUON_FEATURES := \
 	radvd \
 	status-page \
 	web-advanced \
+	authorized-keys \
 	web-wizard
 
 ##	GLUON_SITE_PACKAGES
