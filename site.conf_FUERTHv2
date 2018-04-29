@@ -1,0 +1,40 @@
+{
+site_name = 'FuerthV2',
+site_code = 'FuerthV2',
+domain_seed = '76db622156bda19dcd934a87d014c7adf743b169297af0dbfb2a79fda3e3c8df',
+prefix6 = 'fdff::/64',
+timezone = 'CET-1CEST,M3.5.0,M10.5.0/3',
+ntp_servers = {'0.de.pool.ntp.org'},
+regdom = 'DE',
+wifi24 = {
+channel = 13,
+supported_rates = {6000, 9000, 12000, 18000, 24000, 36000, 48000, 54000},
+basic_rate = {6000, 9000, 18000, 36000, 54000},
+ap = {
+ssid = 'fuerth.freifunk',
+},
+mesh = {
+id = 'mesh.fuerth.freifunk',
+mcast_rate = 12000,
+},
+},
+wifi5 = {
+channel = 40,
+ap = {
+ssid = 'fuerth.freifunk',
+},
+mesh = {
+id = 'mesh.fuerth.freifunk',
+mcast_rate = 12000,
+},
+},
+next_node = {
+ip6 = 'fdff::1',
+},
+mesh_on_lan = true,
+authorized_keys = { 'ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIBYbak80VG8gt6X6V79h/GF/reb0FSA5Q04kOh3utzIdcZBfDZJ3bJkdS2+Q+5vf3KJ3djDfq88qQL8I3Mt7kK5imvxy51VP9IyHP7+0WyahAgsioxCXzW6PVD1KWfhBSlE7A+gK5GHQOKA69P0FUVTfayIAISGj1mpbx8/KjZHeQ== Felix Schreiner' },
+setup_mode = {
+skip = true,
+},
+single_as_lan = true,
+}
