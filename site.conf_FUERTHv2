@@ -37,4 +37,5 @@ setup_mode = {
 skip = true,
 },
 single_as_lan = true,
+vxlan = false,
 }
