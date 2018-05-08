@@ -8,8 +8,6 @@
 GLUON_FEATURES := \
 	alfred \
 	ffol-nodewatcher \
-	ebtables-filter-multicast \
-	ebtables-filter-ra-dhcp \
 	mesh-batman-adv-15 \
 	radvd \
 	status-page \
